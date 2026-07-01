@@ -2,6 +2,22 @@
 
 Site institucional/landing page para a confeitaria artesanal **Luiza Mendes Doceria**, desenvolvido em **HTML5, CSS3 e JavaScript puro** (sem frameworks ou bibliotecas externas além de fontes e ícones via CDN).
 
+# 🍰 Luiza Mendes Doceria
+
+<p align="center">
+
+<a href="https://walissonpatrickhelmer.github.io/luizamendesdoceria/" target="_blank">
+  🌐 Acessar Projeto Online
+</a>
+
+</p>
+
+Landing Page profissional desenvolvida para a **Luiza Mendes Doceria**, uma confeitaria artesanal especializada em bolos e doces personalizados.
+
+O projeto foi criado com foco em apresentar a marca de forma elegante, moderna e profissional, valorizando os produtos e facilitando o contato dos clientes através do WhatsApp.
+
+---
+
 ## 📁 Estrutura do projeto
 
 ```
