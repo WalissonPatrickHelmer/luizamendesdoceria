@@ -526,6 +526,7 @@ h1, h2, h3 { font-family: var(--fonte-titulo); font-weight: 600; line-height: 1.
 .footer__producao { color: rgba(248, 237, 227, 0.4); font-size: 0.75rem; margin-top: 0.5rem; }
 .footer__producao a { color: rgba(248, 237, 227, 0.65); text-decoration: underline; text-underline-offset: 2px; }
 .footer__producao a:hover { color: var(--cor-rosa); }
+.footer__producao i { margin-left: 0.15rem; color: #25D366; }
 
 /* ===== 13. BOTÕES FLUTUANTES ===== */
 .whatsapp-flutuante {
