@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luiza Mendes Doceria | Bolos e Doces Artesanais</title>
+  <meta name="description" content="Confeitaria artesanal especializada em bolos e doces personalizados para aniversários, casamentos e eventos. Feito com carinho, do jeito que sua data especial merece.">
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Ícones (Font Awesome via CDN, somente ícones essenciais) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/logo_pessoa.png" type="image/png">
+</head>
+<body>
+
+  <!-- ===== CURSOR DE AÇÚCAR (decoração sutil que segue o scroll) ===== -->
+  <div class="sugar-trail" aria-hidden="true"></div>
+
+  <!-- ===== HEADER / NAVEGAÇÃO ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo">
+        <span class="logo__nome">Luiza Mendes</span>
+        <span class="logo__sub">doceria</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__lista">
+          <li><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li><a href="#produtos" class="nav__link">Produtos</a></li>
+          <li><a href="#galeria" class="nav__link">Galeria</a></li>
+          <li><a href="#como-funciona" class="nav__link">Como Funciona</a></li>
+          <li><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+          <li><a href="#contato" class="nav__link nav__link--cta">Fazer Pedido</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero__textura" aria-hidden="true"></div>
+    <div class="container hero__inner">
+
+      <div class="hero__conteudo" data-anim="fade-up">
+        <span class="eyebrow">Confeitaria artesanal &amp; personalizada</span>
+        <h1 class="hero__titulo">
+          Doces que viram <em>lembrança</em>,<br>
+          bolos que contam <em>histórias</em>.
+        </h1>
+        <p class="hero__texto">
+          Cada encomenda da Luiza Mendes Doceria é feita à mão, com ingredientes
+          selecionados e atenção a cada detalhe — para que o seu momento especial
+          tenha o sabor que ele merece.
+        </p>
+        <div class="hero__acoes">
+          <a href="https://wa.me/553193836578?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20uma%20encomenda%20na%20Luiza%20Mendes%20Doceria." class="btn btn--whatsapp" target="_blank" rel="noopener">
+            <i class="fa-brands fa-whatsapp"></i> Fazer pedido pelo WhatsApp
+          </a>
+          <a href="#produtos" class="btn btn--ghost">Conhecer produtos</a>
+        </div>
+
+        <div class="hero__selo" aria-hidden="true">
+          <svg viewBox="0 0 120 120" class="selo__svg">
+            <circle cx="60" cy="60" r="56" />
+            <path id="seloCirculo" d="M60,12 a48,48 0 1,1 -0.1,0" fill="none"/>
+            <text>
+              <textPath href="#seloCirculo" startOffset="0%">
+                FEITO À MÃO • COM CARINHO • DESDE O PRIMEIRO BOLO •
+              </textPath>
+            </text>
+          </svg>
+        </div>
+      </div>
+
+      <div class="hero__imagem" data-anim="fade-in">
+        <div class="hero__imagem-moldura">
+          <img src="images/bolo.png" alt="Bolo artesanal personalizado da Luiza Mendes Doceria, decorado à mão" loading="eager">
+        </div>
+        <span class="hero__tag-flutuante">Personalizado para você</span>
+      </div>
+    </div>
+
+    <a href="#sobre" class="hero__scroll" aria-label="Rolar para a próxima seção">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ===== SOBRE ===== -->
+  <section class="sobre" id="sobre">
+    <div class="container sobre__inner">
+      <div class="sobre__imagem" data-anim="fade-right">
+        <div class="sobre__foto-moldura">
+          <img src="images/logo_pessoa.png" alt="Luiza Mendes, confeiteira e fundadora da Luiza Mendes Doceria" loading="lazy">
+        </div>
+        <span class="sobre__assinatura">Luiza Mendes</span>
+      </div>
+
+      <div class="sobre__conteudo" data-anim="fade-left">
+        <span class="eyebrow">Nossa história</span>
+        <h2 class="titulo-secao">Confeitaria que nasceu de uma paixão de verdade</h2>
+        <p>
+          A Luiza Mendes Doceria nasceu da paixão pela confeitaria e do cuidado
+          em cada detalhe. O que começou em uma cozinha pequena, entre receitas
+          de família e testes incansáveis, virou um espaço dedicado a transformar
+          ingredientes simples em momentos inesquecíveis.
+        </p>
+        <p>
+          Cada bolo e cada doce é preparado artesanalmente — sem pressa, sem
+          atalhos — para levar sabor, beleza e, acima de tudo, carinho até a sua mesa.
+        </p>
+
+        <ul class="sobre__lista">
+          <li><i class="fa-solid fa-leaf"></i> Ingredientes selecionados</li>
+          <li><i class="fa-solid fa-heart"></i> Receitas autorais</li>
+          <li><i class="fa-solid fa-cake-candles"></i> Produção 100% artesanal</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUTOS ===== -->
+  <section class="produtos" id="produtos">
+    <div class="container">
+      <div class="titulo-bloco" data-anim="fade-up">
+        <span class="eyebrow">O que fazemos</span>
+        <h2 class="titulo-secao">Produtos feitos sob medida para o seu momento</h2>
+        <p class="titulo-bloco__texto">
+          Da escolha dos sabores ao acabamento final, cada criação é pensada
+          para combinar com a sua celebração.
+        </p>
+      </div>
+
+      <div class="produtos__grid">
+        <article class="card-produto" data-anim="fade-up">
+          <div class="card-produto__imagem">
+            <img src="images/bolo.png" alt="Bolo personalizado com tema infantil, decorado artesanalmente" loading="lazy">
+          </div>
+          <div class="card-produto__corpo">
+            <h3>Bolos Personalizados</h3>
+            <p>Bolos feitos sob medida para aniversários, comemorações e datas especiais — do clássico ao temático.</p>
+            <a href="https://wa.me/553193836578?text=Ol%C3%A1!%20Tenho%20interesse%20em%20um%20bolo%20personalizado." class="card-produto__link" target="_blank" rel="noopener">
+              Pedir orçamento <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="card-produto" data-anim="fade-up">
+          <div class="card-produto__imagem">
+            <img src="images/doce1.png" alt="Doces gourmet artesanais em tons pastel, finamente decorados" loading="lazy">
+          </div>
+          <div class="card-produto__corpo">
+            <h3>Doces Gourmet</h3>
+            <p>Docinhos preparados com ingredientes selecionados e apresentação impecável, prontos para encantar.</p>
+            <a href="https://wa.me/553193836578?text=Ol%C3%A1!%20Tenho%20interesse%20em%20doces%20gourmet." class="card-produto__link" target="_blank" rel="noopener">
+              Pedir orçamento <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="card-produto" data-anim="fade-up">
+          <div class="card-produto__imagem">
+            <img src="images/doce2.png" alt="Kit de doces especiais embalado de forma elegante" loading="lazy">
+          </div>
+          <div class="card-produto__corpo">
+            <h3>Kits Especiais</h3>
+            <p>Combinações pensadas para festas, presentes e momentos únicos — práticas, lindas e deliciosas.</p>
+            <a href="https://wa.me/553193836578?text=Ol%C3%A1!%20Tenho%20interesse%20em%20um%20kit%20especial." class="card-produto__link" target="_blank" rel="noopener">
+              Pedir orçamento <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALERIA ===== -->
+  <section class="galeria" id="galeria">
+    <div class="container">
+      <div class="titulo-bloco titulo-bloco--claro" data-anim="fade-up">
+        <span class="eyebrow">Trabalhos realizados</span>
+        <h2 class="titulo-secao">Um pouco do que já adoçamos por aí</h2>
+      </div>
+
+      <div class="galeria__grid" id="galeriaGrid" data-anim="fade-up">
+        <figure class="galeria__slot galeria__slot--grande" data-slot="0">
+          <img src="" alt="" loading="lazy">
+          <figcaption></figcaption>
+        </figure>
+        <figure class="galeria__slot" data-slot="1">
+          <img src="" alt="" loading="lazy">
+          <figcaption></figcaption>
+        </figure>
+        <figure class="galeria__slot" data-slot="2">
+          <img src="" alt="" loading="lazy">
+          <figcaption></figcaption>
+        </figure>
+        <figure class="galeria__slot" data-slot="3">
+          <img src="" alt="" loading="lazy">
+          <figcaption></figcaption>
+        </figure>
+        <figure class="galeria__slot" data-slot="4">
+          <img src="" alt="" loading="lazy">
+          <figcaption></figcaption>
+        </figure>
+      </div>
+
+      <div class="galeria__dots" id="galeriaDots" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- ===== COMO FUNCIONA ===== -->
+  <section class="como-funciona" id="como-funciona">
+    <div class="container">
+      <div class="titulo-bloco" data-anim="fade-up">
+        <span class="eyebrow">Passo a passo</span>
+        <h2 class="titulo-secao">Como funciona a sua encomenda</h2>
+      </div>
+
+      <ol class="passos">
+        <li class="passos__item" data-anim="fade-up">
+          <span class="passos__numero">01</span>
+          <h3>Escolha seu produto</h3>
+          <p>Bolo, doces ou kit — você escolhe o que combina com a sua celebração.</p>
+        </li>
+        <li class="passos__item" data-anim="fade-up">
+          <span class="passos__numero">02</span>
+          <h3>Envie sua ideia</h3>
+          <p>Conte o tema, as cores e as referências que você imagina para o seu pedido.</p>
+        </li>
+        <li class="passos__item" data-anim="fade-up">
+          <span class="passos__numero">03</span>
+          <h3>Definimos os detalhes</h3>
+          <p>Alinhamos sabores, quantidade, valores e a data da entrega com você.</p>
+        </li>
+        <li class="passos__item" data-anim="fade-up">
+          <span class="passos__numero">04</span>
+          <h3>Receba sua encomenda</h3>
+          <p>Seu pedido chega pronto, lindo e fresquinho, no dia combinado.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== DEPOIMENTOS ===== -->
+  <section class="depoimentos" id="depoimentos">
+    <div class="container">
+      <div class="titulo-bloco" data-anim="fade-up">
+        <span class="eyebrow">Quem já experimentou</span>
+        <h2 class="titulo-secao">O que dizem sobre a gente</h2>
+      </div>
+
+      <div class="depoimentos__carrossel">
+        <button class="depoimentos__seta depoimentos__seta--prev" id="depPrev" aria-label="Depoimento anterior">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <div class="depoimentos__viewport">
+          <ul class="depoimentos__lista" id="depLista">
+            <li class="depoimento" data-anim="fade-up">
+              <div class="depoimento__estrelas" aria-label="5 de 5 estrelas">★★★★★</div>
+              <p class="depoimento__texto">“Produtos lindos, deliciosos e feitos com muito carinho. O bolo do aniversário do meu filho fez sucesso com todo mundo!”</p>
+              <span class="depoimento__autor">— Camila R.</span>
+            </li>
+            <li class="depoimento" data-anim="fade-up">
+              <div class="depoimento__estrelas" aria-label="5 de 5 estrelas">★★★★★</div>
+              <p class="depoimento__texto">“Encomendei os docinhos para o meu casamento e foi a parte mais elogiada da festa. Atendimento atencioso do início ao fim.”</p>
+              <span class="depoimento__autor">— Bruno e Marina</span>
+            </li>
+            <li class="depoimento" data-anim="fade-up">
+              <div class="depoimento__estrelas" aria-label="5 de 5 estrelas">★★★★★</div>
+              <p class="depoimento__texto">“Qualidade impecável e um capricho enorme na decoração. Já virei cliente fixa da Luiza Mendes Doceria.”</p>
+              <span class="depoimento__autor">— Fernanda A.</span>
+            </li>
+          </ul>
+        </div>
+
+        <button class="depoimentos__seta depoimentos__seta--next" id="depNext" aria-label="Próximo depoimento">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <div class="depoimentos__dots" id="depDots" role="tablist" aria-label="Selecionar depoimento"></div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section class="contato" id="contato">
+    <div class="contato__textura" aria-hidden="true"></div>
+    <div class="container contato__inner" data-anim="fade-up">
+      <span class="eyebrow eyebrow--claro">Vamos adoçar o seu dia?</span>
+      <h2 class="contato__titulo">Faça sua encomenda</h2>
+      <p class="contato__texto">
+        Conte para a gente a data, o tema e a quantidade — e deixe o resto com a gente.
+        Datas especiais costumam fechar a agenda rápido, reserve a sua com antecedência.
+      </p>
+
+      <div class="contato__acoes">
+        <a href="https://wa.me/553193836578?text=Ol%C3%A1!%20Quero%20reservar%20minha%20data%20na%20Luiza%20Mendes%20Doceria." class="btn btn--whatsapp btn--grande" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp"></i> Reserve sua data agora
+        </a>
+      </div>
+
+      <div class="contato__info">
+        <a href="https://www.instagram.com/luizamendesdoceria/" target="_blank" rel="noopener" class="contato__rede">
+          <i class="fa-brands fa-instagram"></i> @luizamendesdoceria
+        </a>
+        <span class="contato__rede contato__rede--estatico">
+          <i class="fa-solid fa-location-dot"></i> Atendimento sob encomenda
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__marca">
+        <span class="logo__nome logo__nome--footer">Luiza Mendes</span>
+        <span class="logo__sub">doceria</span>
+      </div>
+      <p class="footer__texto">Bolos e doces artesanais feitos com carinho, para momentos que merecem ser celebrados.</p>
+      <p class="footer__copy">&copy; <span id="anoAtual"></span> Luiza Mendes Doceria. Todos os direitos reservados.</p>
+      <p class="footer__producao">
+        Produção: <strong>Helmer Tech Solution</strong> · <a href="tel:+553193736336">(31) 9373-6336</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- ===== BOTÃO FLUTUANTE WHATSAPP ===== -->
+  <a href="https://wa.me/553193836578?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20fazer%20uma%20encomenda."
+     class="whatsapp-flutuante" target="_blank" rel="noopener" aria-label="Fale conosco no WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- ===== BOTÃO VOLTAR AO TOPO ===== -->
+  <button class="voltar-topo" id="voltarTopo" aria-label="Voltar ao topo">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
